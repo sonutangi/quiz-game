@@ -18,7 +18,7 @@ def main():
         {"q": "How many beers you think you can drink?", "options": ["1", "2", "3", "4"], "correct": "1", "incorrect": "dengindi sharma!"},
         {"q": "Are you a virgin?", "options": ["Yes", "No"], "correct": "No", "incorrect": "pikavule sharma!"},
         {"q": "How many accounts you opened till now?", "options": ["0", "1", "2", "3"], "correct": "1", "incorrect": "Incorrect! neku antha scene ledu le!"},
-        {"q": "Yadhavas ekkuva leda Gouds ekkuva?", "options": ["Yadhavas", "Gouds"], "correct": "Yadhavas", "incorrect": "tappu! nuvvu janmalo maravu inka!"}
+        {"q": "Yadhavas ekkuva leda Gouds ekkuva?", "options": ["Yadhavas", "Gouds"], "correct": "Yadhavas", "incorrect": "tappu! nuvvu janmalo maravu inka!"},
         {"q": "Telangana Jathi Pitha evaru?", "options": ["KCR", "Other"], "correct": "KCR", "incorrect": "siggu undali, me anna entha chesadu meku!"},
         {"q": "Nee brathukulo eppudu aina beer konukoni tagava okkadive?", "options": ["Yes", "No"], "correct": "Yes", "chi! enduku sharma a brathuku endulo aina duki chavu!"},
         {"q": "Nuvvu pedda fan-a? Chinna fan-a?", "options": ["Big fan", "Small fan"], "correct": "Small fan", "gudda musuko nuvvu pedda lanjavi"},
@@ -73,4 +73,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
