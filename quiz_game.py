@@ -13,16 +13,16 @@ def main():
     if "submitted" not in st.session_state:
         st.session_state.submitted = False
 
-    # Questions and answers (revised feedback for appropriateness)
+    # Questions and answers (with corrected dictionary syntax)
     questions = [
-        {"q": "How many beers you think you can drink?", "options": ["1", "2", "3", "4"], "correct": "1", "incorrect": "dengindi sharma!"},
-        {"q": "Are you a virgin?", "options": ["Yes", "No"], "correct": "No", "incorrect": "pikavule sharma!"},
-        {"q": "How many accounts you opened till now?", "options": ["0", "1", "2", "3"], "correct": "1", "incorrect": "Incorrect! neku antha scene ledu le!"},
-        {"q": "Yadhavas ekkuva leda Gouds ekkuva?", "options": ["Yadhavas", "Gouds"], "correct": "Yadhavas", "incorrect": "tappu! nuvvu janmalo maravu inka!"},
-        {"q": "Telangana Jathi Pitha evaru?", "options": ["KCR", "Other"], "correct": "KCR", "incorrect": "siggu undali, me anna entha chesadu meku!"},
-        {"q": "Nee brathukulo eppudu aina beer konukoni tagava okkadive?", "options": ["Yes", "No"], "correct": "Yes", "chi! enduku sharma a brathuku endulo aina duki chavu!"},
-        {"q": "Nuvvu pedda fan-a? Chinna fan-a?", "options": ["Big fan", "Small fan"], "correct": "Small fan", "gudda musuko nuvvu pedda lanjavi"},
-        {"q": "Neku inka takita takita workout avutunda?", "options": ["Yes", "No"], "correct": "Yes", "mothaniki oppukunnavu"}
+        {"q": "How many beers you think you can drink?", "options": ["1", "2", "3", "4"], "correct": "1", "incorrect": "Dengindi sharma"},
+        {"q": "Are you a virgin?", "options": ["Yes", "No"], "correct": "No", "incorrect": "Pikavule sharma"},
+        {"q": "How many accounts you opened till now?", "options": ["0", "1", "2", "3"], "correct": "1", "incorrect": "Incorrect! Neku antha scene ledu le"},
+        {"q": "Yadhavas ekkuva leda Gouds ekkuva?", "options": ["Yadhavas", "Gouds"], "correct": "Yadhavas", "incorrect": "Tappu! Nuvvu janmalo maravu inka"},
+        {"q": "Telangana Jathi Pitha evaru?", "options": ["KCR", "Other"], "correct": "KCR", "incorrect": "Siggu undali, me anna entha chesadu meku"},
+        {"q": "Nee brathukulo eppudu aina beer konukoni tagava okkadive?", "options": ["Yes", "No"], "correct": "Yes", "incorrect": "Chi! Enduku sharma a brathuku endulo aina duki chavu"},
+        {"q": "Nuvvu pedda lanjava? Chinna lanjava?", "options": ["Pedda lanja", "Chinna lanja"], "correct": "Chinna lanja", "incorrect": "Gudda musuko nuvvu pedda lanjavi"},
+        {"q": "Neku inka takita takita workout avutunda?", "options": ["Yes", "No"], "correct": "Yes", "incorrect": "Mothaniki oppukunnavu"}
     ]
 
     # Ask if the user wants to play
@@ -71,7 +71,7 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
-
     main()
+
 
 
